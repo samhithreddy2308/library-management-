@@ -1,0 +1,90 @@
+  body
+  {
+    background-color: antiquewhite;
+    background-image: url('https://images.wallpaperscraft.com/image/single/books_library_shelves_138556_1920x1080.jpg');
+    background-size: cover;
+  
+    height: 100vh;
+  }
+
+  .image_user{
+    float: right;
+    padding-right: 5%;
+  }
+  
+  .heading{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+  }
+  .main_header{
+    text-align: center;
+  }
+  
+.right {
+    background: white;
+    padding: 10px;
+    border-style: dotted;
+    color: black;
+    display: block;
+    margin-left: 100px;
+    width: auto;
+    height: 50%;
+} 
+#Result{
+  overflow-x: hidden; 
+  overflow-x: auto; 
+  text-align:justify;
+}
+
+.left {
+    background: white;
+    padding: 10px;
+    border-style: dotted;
+    color: black;
+    width: 60%;
+    height: 50%;
+    display: inline-block;
+    margin:auto;
+}
+  
+  #portal{
+    font-size:300%;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  
+  #log_button {
+    width: 85px;
+    background-color: #4CAF50;
+  }
+  
+  .BUTTON{
+    font-size: 15px;
+    color: rgb(248, 244, 244);
+    padding: 15px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: black;
+  }
+  .BUTTON:hover{
+    background-color: aqua;
+    color: black;
+  }
+  
+@import url('https://fonts.googleapis.com/css?family=Bangers');
+*,*::before,*::after{
+  margin:0;
+  box-sizing:border-box;
+}
+
+#header-file{
+    margin: 50px;
+}
+
+body{
+  margin: 10px;
+  font-family: 'Bangers', cursive;
+}
